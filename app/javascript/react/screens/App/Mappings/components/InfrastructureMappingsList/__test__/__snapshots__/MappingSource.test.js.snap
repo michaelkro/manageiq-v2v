@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MappingSource with children 1`] = `
+<div
+  className="infra-mapping-source-container"
+>
+  <div
+    className="infra-mapping-item-source"
+  >
+    <div>
+      hello
+    </div>
+  </div>
+  <div
+    className="arrow-wrapper"
+  >
+    <div
+      className="arrow-stem"
+    />
+    <div
+      className="arrow-head"
+    />
+  </div>
+</div>
+`;
