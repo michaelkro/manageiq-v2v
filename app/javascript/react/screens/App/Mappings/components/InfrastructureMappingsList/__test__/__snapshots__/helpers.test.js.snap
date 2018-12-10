@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getHeaderText formats header text for OSP mappings 1`] = `
+Object {
+  "sourceClusters": "Source Provider \\\\ Datacenter \\\\ Cluster",
+  "sourceDatastores": "Source Provider \\\\ Datacenter \\\\ Cluster \\\\ Datastore",
+  "sourceNetworks": "Source Provider \\\\ Datacenter \\\\ Cluster \\\\ Network",
+  "targetClusters": "Target Provider \\\\ Project",
+  "targetDatastores": "Target Provider \\\\ Project \\\\ Volume Type",
+  "targetNetworks": "Target Provider \\\\ Project \\\\ Network",
+}
+`;
+
+exports[`getHeaderText formats header text for RHV mappings 1`] = `
+Object {
+  "sourceClusters": "Source Clusters",
+  "sourceDatastores": "Source Datastores",
+  "sourceNetworks": "Source Networks",
+  "targetClusters": "Target Clusters",
+  "targetDatastores": "Target Datastores",
+  "targetNetworks": "Target Networks",
+}
+`;
